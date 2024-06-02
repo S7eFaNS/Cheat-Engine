@@ -2,7 +2,6 @@
 #include "systemFunctions.h"
 
 int main() {
-    PID pid = 1472;
 
     std::cout << "Welcome to cheat engine!\n";
     std::cout << "----------------------------------\n";
@@ -19,6 +18,7 @@ int main() {
 
     std::cout << "----------------------------------\n";
 
+    PID pid;
     std::cout << "Please enter the PID of the game you want to hack: ";
     std::cin >> pid;
 
